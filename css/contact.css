@@ -1,0 +1,72 @@
+.content { 
+    display: flex;
+    justify-content: center;
+    min-height: 40vh;
+    min-width: 100%;
+    font-family: 'Roboto', sans-serif;
+    flex-wrap: wrap;
+}
+
+.contact-wrapper {
+    width: 100%;
+}
+
+.contact-section {
+    padding: 0 1rem;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 400;
+    font-family: 'Mitr', Arial, Helvetica, sans-serif;
+    background-color: #f89021;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    color: whitesmoke;
+    text-transform: uppercase;
+    z-index: -2;
+}
+
+.nav-logo {
+    position: absolute;
+    top: -1.5rem;
+}
+
+.contact-section h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: 'Oswald', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+.contact-section h3 {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-family: 'Oswald', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+
+    .hidden {
+        display: block;
+        position: absolute;
+    }
+
+    .content {
+        min-height: 42vh;
+    }
+
+    .contact-section {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    .pinned-logo {
+        position: absolute;
+        top: 1.5rem;
+    }
+}
